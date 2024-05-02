@@ -1,0 +1,1364 @@
+.
+├── MobileSoftwareUpdate
+│   └── restore.log
+├── agentx  [error opening dir]
+├── at
+│   ├── at.deny
+│   ├── cron.deny
+│   ├── jobs
+│   ├── spool
+│   ├── tabs  [error opening dir]
+│   └── tmp  [error opening dir]
+├── audit  [error opening dir]
+├── backups  [error opening dir]
+├── containers
+├── db
+│   ├── Accessibility
+│   ├── BootCache.data
+│   ├── BootCaches
+│   │   ├── Login.logical_playlist
+│   │   ├── Root.logical_playlist
+│   │   └── RootExtra.logical_playlist
+│   ├── CVMS
+│   ├── ConfigurationProfiles
+│   │   └── Settings
+│   ├── CoreDuet  [error opening dir]
+│   ├── DiagnosticPipeline
+│   │   ├── Configuration
+│   │   ├── DRSCKConfigModel.sqlite
+│   │   ├── DRSCKConfigModel.sqlite-shm
+│   │   ├── DRSCKConfigModel.sqlite-wal
+│   │   ├── DRSDataModel.sqlite
+│   │   ├── DRSDataModel.sqlite-shm
+│   │   ├── DRSDataModel.sqlite-wal
+│   │   ├── DRSTaskingDataModel.sqlite
+│   │   ├── DRSTaskingDataModel.sqlite-shm
+│   │   ├── DRSTaskingDataModel.sqlite-wal
+│   │   └── Logs
+│   ├── DiagnosticsReporter
+│   ├── DuetActivityScheduler
+│   │   ├── DuetActivitySchedulerClassC.db
+│   │   ├── DuetActivitySchedulerClassC.db-shm
+│   │   └── DuetActivitySchedulerClassC.db-wal
+│   ├── DumpPanic  [error opening dir]
+│   ├── ExtensibleSSO
+│   │   └── Configuration
+│   ├── GPURestartReporter
+│   ├── KernelExtensionManagement
+│   │   ├── AuxKC
+│   │   └── Staging
+│   ├── MobileIdentityService  [error opening dir]
+│   ├── PanicReporter
+│   ├── QuickTimePlayerVersion.plist
+│   ├── Sandbox  [error opening dir]
+│   ├── Spotlight  [error opening dir]
+│   ├── Spotlight-V100  [error opening dir]
+│   ├── SystemKey
+│   ├── SystemPolicy
+│   ├── SystemPolicyConfiguration
+│   │   ├── Default.plist
+│   │   ├── ExecPolicy
+│   │   ├── ExecPolicy-shm
+│   │   ├── ExecPolicy-wal
+│   │   ├── KextClassification.plist
+│   │   ├── KextPolicy
+│   │   ├── KextPolicy-shm
+│   │   ├── KextPolicy-wal
+│   │   ├── Tickets
+│   │   ├── Tickets-shm
+│   │   ├── Tickets-wal
+│   │   ├── XProtect.bundle
+│   │   ├── gatekeeper-migration.plist
+│   │   ├── gke.bundle
+│   │   └── migration.plist
+│   ├── UpdateMetrics
+│   │   └── Events
+│   ├── accessoryupdater  [error opening dir]
+│   ├── amfid
+│   ├── analyticsd  [error opening dir]
+│   ├── appinstalld  [error opening dir]
+│   ├── applepay  [error opening dir]
+│   ├── appstore
+│   ├── astris
+│   ├── auth.db
+│   ├── auth.db-shm
+│   ├── auth.db-wal
+│   ├── awdd
+│   │   ├── anonlogs
+│   │   ├── metriclogs
+│   │   ├── persistent.db
+│   │   ├── persistent.db-shm
+│   │   ├── persistent.db-wal
+│   │   └── staging
+│   ├── caches
+│   │   └── opendirectory
+│   ├── cmiodalassistants  [error opening dir]
+│   ├── com.apple.almigration.keychain
+│   ├── com.apple.dt.automationmode
+│   ├── com.apple.networkextension.tracker-info
+│   ├── com.apple.xpc.launchd
+│   │   ├── config
+│   │   ├── disabled.501.plist
+│   │   ├── disabled.migrated
+│   │   ├── disabled.plist
+│   │   └── loginitems.501.plist
+│   ├── com.apple.xpc.roleaccountd.staging  [error opening dir]
+│   ├── darwindaemon  [error opening dir]
+│   ├── datadetectors  [error opening dir]
+│   ├── dhcpclient  [error opening dir]
+│   ├── diagnostics
+│   │   ├── HighVolume
+│   │   ├── Persist
+│   │   ├── Signpost
+│   │   ├── Special
+│   │   ├── logd.0.log
+│   │   ├── logdata.statistics.0.txt
+│   │   ├── logdata.statistics.1.txt
+│   │   ├── shutdown.log
+│   │   ├── timesync
+│   │   └── version.plist
+│   ├── diskimagesiod  [error opening dir]
+│   ├── displaypolicyd
+│   │   └── displaypolicyd.0:2:0.cache
+│   ├── dscsym
+│   │   ├── DSCSYM-05187957-23EA-3199-8409-676C51C59E46
+│   │   ├── DSCSYM-091AB7D5-9F5F-34AC-B800-72CCD9DA8650
+│   │   ├── DSCSYM-2C613240-2C81-3842-88AE-7A8CF7EAE215
+│   │   ├── DSCSYM-398ACFB4-57F6-31E0-BC82-E9959E5C92CE
+│   │   ├── DSCSYM-513553BB-5CA5-3B9E-A613-B0603FFE3038
+│   │   └── DSCSYM-53B6853F-0BC3-33F5-BE72-1ACA3A188FF8
+│   ├── dslocal
+│   │   └── nodes
+│   ├── dslocal_orig.cpgz
+│   ├── emondClients
+│   ├── findmydevice
+│   ├── fpsd  [error opening dir]
+│   ├── geod  [error opening dir]
+│   ├── gke.bundle
+│   │   └── Contents
+│   ├── gkopaque.bundle
+│   │   └── Contents
+│   ├── heim-credential-store.archive
+│   ├── hidd  [error opening dir]
+│   ├── installcoordinationd  [error opening dir]
+│   ├── ionodecache.json
+│   ├── kcm-dump.uuid
+│   ├── keybags
+│   │   └── persona.kb
+│   ├── knowledgegraphd  [error opening dir]
+│   ├── launchd.db
+│   │   └── com.apple.launchd
+│   ├── locationd  [error opening dir]
+│   ├── lockdown  [error opening dir]
+│   ├── mds
+│   │   ├── messages
+│   │   └── system
+│   ├── mtrecorder.enable
+│   ├── nearbyd  [error opening dir]
+│   ├── nsurlsessiond  [error opening dir]
+│   ├── nsurlstoraged
+│   │   └── dafsaData.bin
+│   ├── oah  [error opening dir]
+│   ├── ondemand
+│   ├── openldap
+│   │   ├── openldap-data
+│   │   └── run
+│   ├── powerlog
+│   │   └── Library
+│   ├── prng.seed
+│   ├── receipts
+│   │   ├── com.adobe.pkg.PepperFlashPlayer.bom
+│   │   ├── com.adobe.pkg.PepperFlashPlayer.plist
+│   │   ├── com.foxitsoftware.FoxitReaderLite.bom
+│   │   ├── com.foxitsoftware.FoxitReaderLite.plist
+│   │   ├── com.fushao.bestzip-lite.bom
+│   │   ├── com.fushao.bestzip-lite.plist
+│   │   ├── com.kingsoft.wpsoffice.mac.bom
+│   │   ├── com.kingsoft.wpsoffice.mac.plist
+│   │   ├── com.microsoft.edgemac.bom
+│   │   ├── com.microsoft.edgemac.plist
+│   │   ├── com.microsoft.package.Microsoft_AutoUpdate.app.bom
+│   │   ├── com.microsoft.package.Microsoft_AutoUpdate.app.plist
+│   │   ├── com.oray.sunlogin.macclient.bom
+│   │   ├── com.oray.sunlogin.macclient.plist
+│   │   ├── com.teamviewer.AuthorizationPlugin.bom
+│   │   ├── com.teamviewer.AuthorizationPlugin.plist
+│   │   ├── com.teamviewer.remoteaudiodriver.bom
+│   │   ├── com.teamviewer.remoteaudiodriver.plist
+│   │   ├── com.teamviewer.teamviewer.bom
+│   │   ├── com.teamviewer.teamviewer.plist
+│   │   ├── com.teamviewer.teamviewerEnforceUIVersion.bom
+│   │   ├── com.teamviewer.teamviewerEnforceUIVersion.plist
+│   │   ├── com.teamviewer.teamviewerPriviledgedHelper.bom
+│   │   ├── com.teamviewer.teamviewerPriviledgedHelper.plist
+│   │   ├── com.tencent.QQMusicMac.bom
+│   │   ├── com.tencent.QQMusicMac.plist
+│   │   ├── com.tencent.qq.bom
+│   │   ├── com.tencent.qq.plist
+│   │   ├── com.tencent.xinWeChat.bom
+│   │   ├── com.tencent.xinWeChat.plist
+│   │   ├── com.youqu.todesk.mac.bom
+│   │   ├── com.youqu.todesk.mac.plist
+│   │   ├── com.zerotier.pkg.ZeroTierOne.bom
+│   │   ├── com.zerotier.pkg.ZeroTierOne.plist
+│   │   ├── org.xquartz.X11.bom
+│   │   └── org.xquartz.X11.plist
+│   ├── reportmemoryexception  [error opening dir]
+│   ├── rmd  [error opening dir]
+│   ├── searchparty  [error opening dir]
+│   ├── securityagent  [error opening dir]
+│   ├── softwareupdate
+│   │   ├── Library
+│   │   └── journal.plist
+│   ├── spindump
+│   │   └── UUIDToBinaryLocations
+│   ├── sudo  [error opening dir]
+│   ├── sysdiagnose
+│   │   └── com.apple.sysdiagnose
+│   ├── systemstats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.batched_events.5QcxIo.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.batched_events.5U7ejy.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.batched_events.5s1rij.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.batched_events.B2MjOj.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.batched_events.CtPpBS.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.batched_events.Le0Zvq.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.batched_events.WccZiY.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.batched_events.XFqoqS.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.batched_events.XXXXXX.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.batched_events.aUBvJy.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.batched_events.hwlGZc.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.batched_events.kNqu9K.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.batched_events.sMcIzw.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.batched_events.xrClln.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.batched_events_crashable.2s1dHC.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.batched_events_crashable.XXXXXX.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.batched_events_crashable.YjkWze.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.batched_events_crashable.fH6W5z.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.battery_charge.149YVO.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.battery_charge.1sWiaQ.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.battery_charge.9B30Zf.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.battery_charge.DeLzxO.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.battery_charge.FZmm9H.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.battery_charge.LemZZa.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.battery_charge.RmadgV.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.battery_charge.RsY9Jl.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.battery_charge.XXXXXX.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.battery_charge.XY9VYS.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.battery_charge.aO0He4.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.battery_charge.etq1a7.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.battery_charge.frxZ5u.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.battery_charge.iJAxb8.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.battery_charge.iqNTzb.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.battery_charge.sFCZU0.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.battery_charge.wxIUdT.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.battery_charge.xR3t3a.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.boot.XXXXXX.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.0amaS7.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.0bLKra.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.0ip5go.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.0wNPUY.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.1UVuek.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.1g6cDi.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.2C339d.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.2UdQFC.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.2vbJV3.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.398dEe.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.3eBVbu.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.3h3ZEB.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.3tAKVD.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.3uj7hB.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.4I6Vaj.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.4PxY8Y.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.4eGVPZ.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.5UHkJB.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.5WaT0m.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.5fLRdl.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.5sadj3.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.6fMgRE.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.6p3RYd.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.6pt9Zm.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.7g6T1f.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.8CiCsY.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.8LcRxc.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.9Rx6ym.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.9iBoMz.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.9lGJB3.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.9leNMb.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.BdJtTd.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.CO24hv.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.D2e2nN.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.DUPdfK.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.EmmCTt.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.FUS5nK.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.Fc1Xf6.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.FrVmR1.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.H6Ten2.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.I8oX5A.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.ILAX4T.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.IlQs36.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.JrGXxn.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.K73mAg.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.KC4tHh.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.KEW2p4.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.KMRNXJ.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.KZZOSI.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.L9uOxD.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.LHcOn6.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.LKKihT.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.LdxrYa.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.Mn64io.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.NH8CoP.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.NMcnxZ.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.NcJjug.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.NejqPx.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.Nr3Jh0.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.NrmiAP.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.QAuN0x.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.QbUlaq.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.Qm9wAH.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.QtURAy.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.SCGxhn.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.TDc4Yp.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.TGC0bF.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.Tv7RGX.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.VPoJ8L.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.WSSHcc.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.XXXXXX.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.YEb70O.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.Yeduvb.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.ZL9ueF.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.ZerM4Y.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.ZiDFsE.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.ZiPnh1.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.aK5ZNR.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.b1Io42.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.bfYxMa.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.c56lKp.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.cC2YlQ.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.cjADn4.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.d4Pdyo.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.dTvZQK.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.eE63D5.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.eU1Cbs.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.feutFn.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.fzd81U.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.gfD48X.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.gruCCy.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.htleHK.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.iBKHZa.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.j2joTM.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.jJjDxC.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.jdfBt0.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.kf0MHf.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.krUSOD.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.l95IiN.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.lQHAM4.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.llcfhn.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.m5oYrd.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.nYvUJe.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.njy4QN.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.oDtMJA.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.oE7hWI.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.qHPLbL.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.qz0rFW.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.r2KtdW.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.rPoyU9.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.rovGVo.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.s5Lv7j.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.sWRaBH.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.tjb9n2.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.tttafJ.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.v4XkwF.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.vCdk3P.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.viDp0X.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.xJ3EqN.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.xkTgal.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.xxAhvN.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.yZY9rx.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.yxqRGi.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.zBqZmw.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.za7VWN.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions.zbB742.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.1jKHhi.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.7hUjb0.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.98frRm.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.AnBOgz.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.BhzpjM.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.D4uNd3.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.Gm5et5.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.HuspxP.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.Hzhskb.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.KTL0aa.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.LCWeGf.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.LuHhxf.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.MuDP9T.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.NIiWkQ.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.QgJsTw.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.TFiqli.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.UDQnak.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.VhF4Tt.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.XXXXXX.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.eH2nDg.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.hvz6zA.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.is2qL6.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.jO0KAg.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.ndVsF0.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.r8Hy7i.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.s40fNQ.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.s49QfO.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.tDP13p.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.uLCDRj.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.vBbfwg.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.xupjwC.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_memory.yNLnVo.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.1Wr0zg.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.3sJKjy.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.8opHzn.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.9y14U1.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.BWZ40n.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.IdaRcd.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.J0PGIa.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.KbfUig.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.M2w8bH.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.MW3hSm.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.OYXCzN.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.SBwcFm.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.SLpBcz.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.UjsNKp.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.VqOtEp.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.WaBozk.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.XXXXXX.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.XXfxXB.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.dDz6BQ.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.dp7HLM.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.eZelUr.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.eu602z.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.jE7w3K.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.oDuOK8.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.pwSamq.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.rT7WJ1.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.smGBpX.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.x49X6E.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_private.xFX96v.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_resolution.4LIkiv.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_resolution.LmrKN4.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.coalitions_resolution.XXXXXX.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.config_info.XXXXXX.oneshot
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.devices.RNnFlG.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.devices.XXXXXX.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.devices.aq4XWa.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.devices.h10v5P.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.devices.hH3lZO.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.devices_crashable.XXXXXX.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.devices_private.XXXXXX.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.devices_private_crashable.XXXXXX.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.ioreporting.9t7ZK0.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.ioreporting.CuLJuy.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.ioreporting.Mf7Du4.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.ioreporting.XXXXXX.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.ioreporting.nEEmal.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.microstackshots.17qN8Z.gz
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.microstackshots.3bIZif.gz
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.microstackshots.7B9OrW.gz
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.microstackshots.8ZEYUc.gz
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.microstackshots.NkyIMn.gz
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.microstackshots.Ob6fhF.gz
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.microstackshots.QExQv5.gz
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.microstackshots.RofDgt.gz
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.microstackshots.XXXXXX.gz
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.microstackshots.ZsbJzo.gz
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.microstackshots.aBOMPy.gz
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.microstackshots.cjcF3R.gz
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.microstackshots.fzCerM.gz
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.microstackshots.jT0yW0.gz
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.microstackshots.oSfSdz.gz
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.microstackshots.p7stvU.gz
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.microstackshots.pmSkKt.gz
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.microstackshots.q2hs6M.gz
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.microstackshots.q8GoUl.gz
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.pkg_energy.LI6zCM.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.pkg_energy.M7dcKH.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.pkg_energy.XXXXXX.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.pkg_energy.bqiDvx.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.pkg_energy.rt8PEZ.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.pkg_energy.t218nW.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.power_state.0fGB20.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.power_state.DbNKeW.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.power_state.F9kAVv.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.power_state.Hco9pI.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.power_state.OkpQJO.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.power_state.Wn4mGN.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.power_state.XOBg5p.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.power_state.XXXXXX.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.power_state.dLcJMh.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.power_state.dOA3xP.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.power_state.lxwbIK.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.power_state.mKFLkV.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.power_state.oRiTeL.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.power_state.rbLwnj.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.power_state.tgwNBW.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.powerd.XXXXXX.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.system_events.5Z8O11.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.system_events.CwTUv4.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.system_events.EQ9FAU.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.system_events.Ef7CK2.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.system_events.HQZn0E.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.system_events.JLj3wG.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.system_events.SXnMRd.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.system_events.ScsbBm.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.system_events.VGuqzl.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.system_events.WNVCbi.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.system_events.WPyTq2.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.system_events.XXXXXX.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.system_events.aXnGYA.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.system_events.eYGqP5.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.system_events.jdaHnn.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.system_events.rn9Asp.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.system_events.srO8VV.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.system_events.xlKK42.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.system_events.yRw2LR.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.system_events.yxnVqI.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.user_events.XXXXXX.stats
+│   │   ├── 50CA2266-604F-4736-81D8-382BDE4BBA28.video.XXXXXX.stats
+│   │   ├── 5DC55FC5-3F2C-479E-B94A-D5777A542D4B.boot.XXXXXX.stats
+│   │   ├── 5DC55FC5-3F2C-479E-B94A-D5777A542D4B.config_info.XXXXXX.oneshot
+│   │   ├── 5DC55FC5-3F2C-479E-B94A-D5777A542D4B.powerd.XXXXXX.stats
+│   │   ├── current_boot_uuid
+│   │   ├── current_build
+│   │   ├── last_boot_uuid
+│   │   ├── last_build
+│   │   └── state.plist
+│   ├── timed  [error opening dir]
+│   ├── timezone
+│   │   ├── icutz -> /var/db/timezone/tz/2024a.1.0/icutz
+│   │   ├── tz
+│   │   ├── tz_latest -> /var/db/timezone/tz/2024a.1.0
+│   │   └── zoneinfo -> /var/db/timezone/tz/2024a.1.0/zoneinfo
+│   ├── uuidtext
+│   │   ├── 00
+│   │   ├── 01
+│   │   ├── 02
+│   │   ├── 03
+│   │   ├── 04
+│   │   ├── 05
+│   │   ├── 06
+│   │   ├── 07
+│   │   ├── 08
+│   │   ├── 09
+│   │   ├── 0A
+│   │   ├── 0B
+│   │   ├── 0C
+│   │   ├── 0D
+│   │   ├── 0E
+│   │   ├── 0F
+│   │   ├── 10
+│   │   ├── 11
+│   │   ├── 12
+│   │   ├── 13
+│   │   ├── 14
+│   │   ├── 15
+│   │   ├── 16
+│   │   ├── 17
+│   │   ├── 18
+│   │   ├── 19
+│   │   ├── 1A
+│   │   ├── 1B
+│   │   ├── 1C
+│   │   ├── 1D
+│   │   ├── 1E
+│   │   ├── 1F
+│   │   ├── 20
+│   │   ├── 21
+│   │   ├── 22
+│   │   ├── 23
+│   │   ├── 24
+│   │   ├── 25
+│   │   ├── 26
+│   │   ├── 27
+│   │   ├── 28
+│   │   ├── 29
+│   │   ├── 2A
+│   │   ├── 2B
+│   │   ├── 2C
+│   │   ├── 2D
+│   │   ├── 2E
+│   │   ├── 2F
+│   │   ├── 30
+│   │   ├── 31
+│   │   ├── 32
+│   │   ├── 33
+│   │   ├── 34
+│   │   ├── 35
+│   │   ├── 36
+│   │   ├── 37
+│   │   ├── 38
+│   │   ├── 39
+│   │   ├── 3A
+│   │   ├── 3B
+│   │   ├── 3C
+│   │   ├── 3D
+│   │   ├── 3E
+│   │   ├── 3F
+│   │   ├── 40
+│   │   ├── 41
+│   │   ├── 42
+│   │   ├── 43
+│   │   ├── 44
+│   │   ├── 45
+│   │   ├── 46
+│   │   ├── 47
+│   │   ├── 48
+│   │   ├── 49
+│   │   ├── 4A
+│   │   ├── 4B
+│   │   ├── 4C
+│   │   ├── 4D
+│   │   ├── 4E
+│   │   ├── 4F
+│   │   ├── 50
+│   │   ├── 51
+│   │   ├── 52
+│   │   ├── 53
+│   │   ├── 54
+│   │   ├── 55
+│   │   ├── 56
+│   │   ├── 57
+│   │   ├── 58
+│   │   ├── 59
+│   │   ├── 5A
+│   │   ├── 5B
+│   │   ├── 5C
+│   │   ├── 5D
+│   │   ├── 5E
+│   │   ├── 5F
+│   │   ├── 60
+│   │   ├── 61
+│   │   ├── 62
+│   │   ├── 63
+│   │   ├── 64
+│   │   ├── 65
+│   │   ├── 66
+│   │   ├── 67
+│   │   ├── 68
+│   │   ├── 69
+│   │   ├── 6A
+│   │   ├── 6B
+│   │   ├── 6C
+│   │   ├── 6D
+│   │   ├── 6E
+│   │   ├── 6F
+│   │   ├── 70
+│   │   ├── 71
+│   │   ├── 72
+│   │   ├── 73
+│   │   ├── 74
+│   │   ├── 75
+│   │   ├── 76
+│   │   ├── 77
+│   │   ├── 78
+│   │   ├── 79
+│   │   ├── 7A
+│   │   ├── 7B
+│   │   ├── 7C
+│   │   ├── 7D
+│   │   ├── 7E
+│   │   ├── 7F
+│   │   ├── 80
+│   │   ├── 81
+│   │   ├── 82
+│   │   ├── 83
+│   │   ├── 84
+│   │   ├── 85
+│   │   ├── 86
+│   │   ├── 87
+│   │   ├── 88
+│   │   ├── 89
+│   │   ├── 8A
+│   │   ├── 8B
+│   │   ├── 8C
+│   │   ├── 8D
+│   │   ├── 8E
+│   │   ├── 8F
+│   │   ├── 90
+│   │   ├── 91
+│   │   ├── 92
+│   │   ├── 93
+│   │   ├── 94
+│   │   ├── 95
+│   │   ├── 96
+│   │   ├── 97
+│   │   ├── 98
+│   │   ├── 99
+│   │   ├── 9A
+│   │   ├── 9B
+│   │   ├── 9C
+│   │   ├── 9D
+│   │   ├── 9E
+│   │   ├── 9F
+│   │   ├── A0
+│   │   ├── A1
+│   │   ├── A2
+│   │   ├── A3
+│   │   ├── A4
+│   │   ├── A5
+│   │   ├── A6
+│   │   ├── A7
+│   │   ├── A8
+│   │   ├── A9
+│   │   ├── AA
+│   │   ├── AB
+│   │   ├── AC
+│   │   ├── AD
+│   │   ├── AE
+│   │   ├── AF
+│   │   ├── B0
+│   │   ├── B1
+│   │   ├── B2
+│   │   ├── B3
+│   │   ├── B4
+│   │   ├── B5
+│   │   ├── B6
+│   │   ├── B7
+│   │   ├── B8
+│   │   ├── B9
+│   │   ├── BA
+│   │   ├── BB
+│   │   ├── BC
+│   │   ├── BD
+│   │   ├── BE
+│   │   ├── BF
+│   │   ├── C0
+│   │   ├── C1
+│   │   ├── C2
+│   │   ├── C3
+│   │   ├── C4
+│   │   ├── C5
+│   │   ├── C6
+│   │   ├── C7
+│   │   ├── C8
+│   │   ├── C9
+│   │   ├── CA
+│   │   ├── CB
+│   │   ├── CC
+│   │   ├── CD
+│   │   ├── CE
+│   │   ├── CF
+│   │   ├── D0
+│   │   ├── D1
+│   │   ├── D2
+│   │   ├── D3
+│   │   ├── D4
+│   │   ├── D5
+│   │   ├── D6
+│   │   ├── D7
+│   │   ├── D8
+│   │   ├── D9
+│   │   ├── DA
+│   │   ├── DB
+│   │   ├── DC
+│   │   ├── DD
+│   │   ├── DE
+│   │   ├── DF
+│   │   ├── E0
+│   │   ├── E1
+│   │   ├── E2
+│   │   ├── E3
+│   │   ├── E4
+│   │   ├── E5
+│   │   ├── E6
+│   │   ├── E7
+│   │   ├── E8
+│   │   ├── E9
+│   │   ├── EA
+│   │   ├── EB
+│   │   ├── EC
+│   │   ├── ED
+│   │   ├── EE
+│   │   ├── EF
+│   │   ├── F0
+│   │   ├── F1
+│   │   ├── F2
+│   │   ├── F3
+│   │   ├── F4
+│   │   ├── F5
+│   │   ├── F6
+│   │   ├── F7
+│   │   ├── F8
+│   │   ├── F9
+│   │   ├── FA
+│   │   ├── FB
+│   │   ├── FC
+│   │   ├── FD
+│   │   ├── FE
+│   │   ├── FF
+│   │   └── dsc
+│   └── volinfo.database
+├── dirs_cleaner  [error opening dir]
+├── empty
+├── folders
+│   ├── l6
+│   │   └── jss1pfzn1_l305dnj95rzjk40000gn
+│   └── zz
+│       ├── zyxvpxvq6csfxvn_n0000000000000
+│       ├── zyxvpxvq6csfxvn_n000003000000r
+│       ├── zyxvpxvq6csfxvn_n000003800000t
+│       ├── zyxvpxvq6csfxvn_n000006w00001q
+│       ├── zyxvpxvq6csfxvn_n0000084000021
+│       ├── zyxvpxvq6csfxvn_n00000b000002r
+│       ├── zyxvpxvq6csfxvn_n00000b400002s
+│       ├── zyxvpxvq6csfxvn_n00000bh00002w
+│       ├── zyxvpxvq6csfxvn_n00000s0000068
+│       ├── zyxvpxvq6csfxvn_n00000s800006_
+│       ├── zyxvpxvq6csfxvn_n00000sm00006d
+│       ├── zyxvpxvq6csfxvn_n00000th00006m
+│       ├── zyxvpxvq6csfxvn_n00000tm00006n
+│       ├── zyxvpxvq6csfxvn_n00000vr00006y
+│       ├── zyxvpxvq6csfxvn_n00000xc00007b
+│       ├── zyxvpxvq6csfxvn_n00000y000007h
+│       ├── zyxvpxvq6csfxvn_n00000y400007j
+│       ├── zyxvpxvq6csfxvn_n00000y800007k
+│       ├── zyxvpxvq6csfxvn_n00000yh00007m
+│       ├── zyxvpxvq6csfxvn_n00000yw00007q
+│       ├── zyxvpxvq6csfxvn_n00000z000007r
+│       ├── zyxvpxvq6csfxvn_n0000104000081
+│       ├── zyxvpxvq6csfxvn_n0000108000082
+│       ├── zyxvpxvq6csfxvn_n000010c000083
+│       ├── zyxvpxvq6csfxvn_n000010h000084
+│       ├── zyxvpxvq6csfxvn_n000010m000085
+│       ├── zyxvpxvq6csfxvn_n000010r000086
+│       ├── zyxvpxvq6csfxvn_n000010w000087
+│       ├── zyxvpxvq6csfxvn_n0000114000089
+│       ├── zyxvpxvq6csfxvn_n000011800008_
+│       ├── zyxvpxvq6csfxvn_n000011m00008d
+│       ├── zyxvpxvq6csfxvn_n000011r00008f
+│       ├── zyxvpxvq6csfxvn_n000011w00008g
+│       ├── zyxvpxvq6csfxvn_n000012400008j
+│       ├── zyxvpxvq6csfxvn_n000012800008k
+│       ├── zyxvpxvq6csfxvn_n000012r00008p
+│       └── zyxvpxvq6csfxvn_n000013800008t
+├── install  [error opening dir]
+├── jabberd  [error opening dir]
+├── lib
+│   └── postfix  [error opening dir]
+├── log
+│   ├── CoreDuet
+│   ├── DiagnosticMessages
+│   │   ├── 2024.04.26.asl
+│   │   ├── 2024.04.27.asl
+│   │   ├── 2024.04.28.asl
+│   │   ├── 2024.04.29.asl
+│   │   ├── 2024.04.30.asl
+│   │   ├── 2024.05.01.asl
+│   │   ├── 2024.05.02.asl
+│   │   └── StoreData
+│   ├── apache2
+│   ├── asl
+│   │   ├── 2024.04.25.G80.asl
+│   │   ├── 2024.04.26.G80.asl
+│   │   ├── 2024.04.27.G80.asl
+│   │   ├── 2024.04.28.G80.asl
+│   │   ├── 2024.04.29.G80.asl
+│   │   ├── 2024.04.30.G80.asl
+│   │   ├── 2024.05.01.G80.asl
+│   │   ├── 2024.05.02.G80.asl
+│   │   ├── AUX.2024.04.25
+│   │   ├── AUX.2024.04.26
+│   │   ├── AUX.2024.04.27
+│   │   ├── AUX.2024.04.28
+│   │   ├── AUX.2024.04.29
+│   │   ├── AUX.2024.04.30
+│   │   ├── AUX.2024.05.01
+│   │   ├── AUX.2024.05.02
+│   │   ├── BB.2024.05.31.G80.asl
+│   │   ├── BB.2024.06.30.G80.asl
+│   │   ├── BB.2024.08.31.G80.asl
+│   │   ├── BB.2024.09.30.G80.asl
+│   │   ├── BB.2024.10.31.G80.asl
+│   │   ├── BB.2024.11.30.G80.asl
+│   │   ├── BB.2024.12.31.G80.asl
+│   │   ├── BB.2025.01.31.G80.asl
+│   │   ├── BB.2025.02.28.G80.asl
+│   │   ├── BB.2025.03.31.G80.asl
+│   │   ├── BB.2025.04.30.G80.asl
+│   │   ├── BB.2025.05.31.G80.asl
+│   │   ├── Logs
+│   │   └── StoreData
+│   ├── com.apple.wifivelocity
+│   ├── com.apple.xpc.launchd
+│   │   ├── launchd.log
+│   │   ├── launchd.log.1
+│   │   └── launchd.log.2
+│   ├── com.youqu.todesk.service.log
+│   ├── cups
+│   │   ├── access_log
+│   │   └── error_log
+│   ├── daily.out
+│   ├── displaypolicy
+│   │   ├── displaypolicyd.0:2:0.log
+│   │   ├── displaypolicyd.log
+│   │   └── iogdiagnose-last.bin
+│   ├── displaypolicyd.stdout.log
+│   ├── dm
+│   ├── emond
+│   │   └── StoreData
+│   ├── fsck_apfs.log
+│   ├── fsck_apfs_error.log
+│   ├── fsck_hfs.log
+│   ├── install.log
+│   ├── mDNSResponder
+│   ├── monthly.out
+│   ├── powermanagement
+│   │   ├── 2024.04.18.asl
+│   │   ├── 2024.04.19.asl
+│   │   ├── 2024.04.20.asl
+│   │   ├── 2024.04.21.asl
+│   │   ├── 2024.04.22.asl
+│   │   ├── 2024.04.23.asl
+│   │   ├── 2024.04.24.asl
+│   │   ├── 2024.04.25.asl
+│   │   ├── 2024.04.26.asl
+│   │   ├── 2024.04.27.asl
+│   │   ├── 2024.04.28.asl
+│   │   ├── 2024.04.29.asl
+│   │   ├── 2024.04.30.asl
+│   │   ├── 2024.05.01.asl
+│   │   ├── 2024.05.02.asl
+│   │   └── StoreData
+│   ├── ppp
+│   ├── shutdown_monitor.log
+│   ├── sunlogin
+│   │   ├── desktop.agent-blackhole.20221017-123832.log
+│   │   ├── desktop.agent-blackhole.20221103-143917.log
+│   │   ├── desktop.agent-blackhole.20221107-093153.log
+│   │   ├── desktop.agent-blackhole.20221121-082848.log
+│   │   ├── desktop.agent-blackhole.20230116-094452.log
+│   │   ├── desktop.agent-blackhole.20230117-124713.log
+│   │   ├── desktop.agent-blackhole.20230119-115829.log
+│   │   ├── desktop.agent-blackhole.20230119-120425.log
+│   │   ├── desktop.agent-blackhole.20230119-121429.log
+│   │   ├── desktop.agent-blackhole.20230122-095116.log
+│   │   ├── desktop.agent-blackhole.20230124-233833.log
+│   │   ├── desktop.agent-blackhole.20230126-142934.log
+│   │   ├── desktop.agent-blackhole.20230129-221611.log
+│   │   ├── desktop.agent-blackhole.20230130-144206.log
+│   │   ├── desktop.agent-blackhole.20230207-231128.log
+│   │   ├── desktop.agent-blackhole.20230208-132603.log
+│   │   ├── desktop.agent-blackhole.20230209-125220.log
+│   │   ├── desktop.agent-blackhole.20230421-094959.log
+│   │   ├── desktop.agent-blackhole.20230428-113808.log
+│   │   ├── desktop.agent-blackhole.20230506-154012.log
+│   │   ├── desktop.agent-blackhole.20230618-215422.log
+│   │   ├── desktop.agent-blackhole.20230627-154859.log
+│   │   ├── desktop.agent-blackhole.20230716-154051.log
+│   │   ├── desktop.agent-blackhole.20230730-011611.log
+│   │   ├── desktop.agent-blackhole.20230807-170405.log
+│   │   ├── desktop.agent-blackhole.20230811-113943.log
+│   │   ├── desktop.agent-blackhole.20230813-091806.log
+│   │   ├── desktop.agent-blackhole.20230819-010718.log
+│   │   ├── desktop.agent-blackhole.20231005-041122.log
+│   │   ├── desktop.agent-blackhole.20231031-122913.log
+│   │   ├── desktop.agent-blackhole.20231118-130741.log
+│   │   ├── desktop.agent-blackhole.20231227-202909.log
+│   │   ├── desktop.agent-blackhole.20240114-135754.log
+│   │   ├── desktop.agent-blackhole.20240115-134621.log
+│   │   ├── desktop.agent-blackhole.20240129-085501.log
+│   │   ├── desktop.agent-blackhole.20240210-130534.log
+│   │   ├── desktop.agent-blackhole.20240217-131026.log
+│   │   ├── desktop.agent-blackhole.20240217-202319.log
+│   │   ├── desktop.agent-blackhole.20240320-102330.log
+│   │   ├── desktop.agent-blackhole.20240330-140914.log
+│   │   ├── desktop.agent-blackhole.20240412-175930.log
+│   │   ├── desktop.agent-blackhole.20240426-194715.log
+│   │   ├── desktop.agent-blackhole.20240430-204739.log
+│   │   ├── desktop.agent-blackhole.log
+│   │   ├── desktop.agent-root.20221017-121820.log
+│   │   ├── desktop.agent-root.20221017-123631.log
+│   │   ├── desktop.agent-root.20221017-123656.log
+│   │   ├── desktop.agent-root.20221107-093104.log
+│   │   ├── desktop.agent-root.20221121-082704.log
+│   │   ├── desktop.agent-root.20221121-082721.log
+│   │   ├── desktop.agent-root.20230116-004229.log
+│   │   ├── desktop.agent-root.20230116-004252.log
+│   │   ├── desktop.agent-root.20230117-124433.log
+│   │   ├── desktop.agent-root.20230117-124457.log
+│   │   ├── desktop.agent-root.20230119-115017.log
+│   │   ├── desktop.agent-root.20230119-115043.log
+│   │   ├── desktop.agent-root.20230119-120348.log
+│   │   ├── desktop.agent-root.20230119-121356.log
+│   │   ├── desktop.agent-root.20230122-095042.log
+│   │   ├── desktop.agent-root.20230124-233748.log
+│   │   ├── desktop.agent-root.20230124-233811.log
+│   │   ├── desktop.agent-root.20230126-142824.log
+│   │   ├── desktop.agent-root.20230126-142847.log
+│   │   ├── desktop.agent-root.20230129-221534.log
+│   │   ├── desktop.agent-root.20230130-144025.log
+│   │   ├── desktop.agent-root.20230130-144047.log
+│   │   ├── desktop.agent-root.20230207-231045.log
+│   │   ├── desktop.agent-root.20230207-231109.log
+│   │   ├── desktop.agent-root.20230208-132505.log
+│   │   ├── desktop.agent-root.20230208-132527.log
+│   │   ├── desktop.agent-root.20230209-125132.log
+│   │   ├── desktop.agent-root.20230209-125153.log
+│   │   ├── desktop.agent-root.20230426-120602.log
+│   │   ├── desktop.agent-root.20230426-121504.log
+│   │   ├── desktop.agent-root.20230506-153939.log
+│   │   ├── desktop.agent-root.20230627-154412.log
+│   │   ├── desktop.agent-root.20230627-154435.log
+│   │   ├── desktop.agent-root.20231031-122802.log
+│   │   ├── desktop.agent-root.20231031-122826.log
+│   │   ├── desktop.agent-root.20231118-123006.log
+│   │   ├── desktop.agent-root.20231118-123910.log
+│   │   ├── desktop.agent-root.20231118-123935.log
+│   │   ├── desktop.agent-root.20231227-202818.log
+│   │   ├── desktop.agent-root.20231227-202842.log
+│   │   ├── desktop.agent-root.20240114-021212.log
+│   │   ├── desktop.agent-root.20240114-022135.log
+│   │   ├── desktop.agent-root.20240114-022201.log
+│   │   ├── desktop.agent-root.20240115-132839.log
+│   │   ├── desktop.agent-root.20240115-132901.log
+│   │   ├── desktop.agent-root.20240129-084257.log
+│   │   ├── desktop.agent-root.20240129-084320.log
+│   │   ├── desktop.agent-root.20240217-202241.log
+│   │   ├── desktop.agent-root.20240330-140808.log
+│   │   ├── desktop.agent-root.20240330-140831.log
+│   │   ├── desktop.agent-root.20240412-173955.log
+│   │   ├── desktop.agent-root.20240412-174800.log
+│   │   ├── desktop.agent-root.log
+│   │   ├── shell.20230510-205701.log
+│   │   ├── shell.20230512-075549.log
+│   │   ├── shell.20230527-212427.log
+│   │   ├── shell.20230528-043206.log
+│   │   ├── shell.20230528-131056.log
+│   │   ├── shell.20230612-031233.log
+│   │   ├── shell.20230613-141421.log
+│   │   ├── shell.20230613-143141.log
+│   │   ├── shell.20230614-111857.log
+│   │   ├── shell.20230615-145926.log
+│   │   ├── shell.20230615-171626.log
+│   │   ├── shell.20230616-141214.log
+│   │   ├── shell.20230617-155012.log
+│   │   ├── shell.20230619-135122.log
+│   │   ├── shell.20230619-184642.log
+│   │   ├── shell.20230619-185101.log
+│   │   ├── shell.20230627-230002.log
+│   │   ├── shell.20230725-085459.log
+│   │   ├── shell.20230725-085522.log
+│   │   ├── shell.20230730-172627.log
+│   │   ├── shell.20230803-033941.log
+│   │   ├── shell.20230806-034115.log
+│   │   ├── shell.20230806-042021.log
+│   │   ├── shell.20230806-174744.log
+│   │   ├── shell.20230807-192258.log
+│   │   ├── shell.20230813-193341.log
+│   │   ├── shell.20230814-073015.log
+│   │   ├── shell.20230814-173922.log
+│   │   ├── shell.20230820-182422.log
+│   │   ├── shell.20230820-221502.log
+│   │   ├── shell.20230821-165243.log
+│   │   ├── shell.20230826-144529.log
+│   │   ├── shell.20230826-232825.log
+│   │   ├── shell.20230827-154842.log
+│   │   ├── shell.20230908-003256.log
+│   │   ├── shell.20230920-134638.log
+│   │   ├── shell.20230921-044723.log
+│   │   ├── shell.20230921-063708.log
+│   │   ├── shell.20230921-201039.log
+│   │   ├── shell.20230923-162539.log
+│   │   ├── shell.20230923-171903.log
+│   │   ├── shell.20230923-202758.log
+│   │   ├── shell.20230930-070949.log
+│   │   ├── shell.20231001-223152.log
+│   │   ├── shell.20231002-163824.log
+│   │   ├── shell.20231004-192955.log
+│   │   ├── shell.20231004-224618.log
+│   │   ├── shell.20231005-183026.log
+│   │   ├── shell.20231005-192258.log
+│   │   ├── shell.20231005-193219.log
+│   │   ├── shell.20231005-222128.log
+│   │   ├── shell.20231005-234816.log
+│   │   ├── shell.20231006-164325.log
+│   │   ├── shell.20231006-213009.log
+│   │   ├── shell.20231007-032003.log
+│   │   ├── shell.20231007-151221.log
+│   │   ├── shell.20231010-205134.log
+│   │   ├── shell.20231010-205717.log
+│   │   ├── shell.20231101-000008.log
+│   │   ├── shell.20231103-123930.log
+│   │   ├── shell.20231106-182437.log
+│   │   ├── shell.20231111-144449.log
+│   │   ├── shell.20231114-120520.log
+│   │   ├── shell.20231119-225214.log
+│   │   ├── shell.20231123-004614.log
+│   │   ├── shell.20231202-182506.log
+│   │   ├── shell.20231204-192759.log
+│   │   ├── shell.20231208-170803.log
+│   │   ├── shell.20231227-202445.log
+│   │   ├── shell.20231227-202629.log
+│   │   ├── shell.20231227-203019.log
+│   │   ├── shell.20240108-123452.log
+│   │   ├── shell.20240115-132056.log
+│   │   ├── shell.20240118-181819.log
+│   │   ├── shell.20240119-160933.log
+│   │   ├── shell.20240129-161043.log
+│   │   ├── shell.20240201-142847.log
+│   │   ├── shell.20240201-142911.log
+│   │   ├── shell.20240202-212802.log
+│   │   ├── shell.20240203-194450.log
+│   │   ├── shell.20240206-213729.log
+│   │   ├── shell.20240207-203950.log
+│   │   ├── shell.20240208-153917.log
+│   │   ├── shell.20240218-202258.log
+│   │   ├── shell.20240304-184354.log
+│   │   ├── shell.20240306-121606.log
+│   │   ├── shell.20240320-102459.log
+│   │   ├── shell.20240321-123513.log
+│   │   ├── shell.20240323-065640.log
+│   │   ├── shell.20240323-092800.log
+│   │   ├── shell.20240327-144640.log
+│   │   ├── shell.20240329-062226.log
+│   │   ├── shell.20240401-200107.log
+│   │   ├── shell.20240409-132946.log
+│   │   ├── shell.20240410-002545.log
+│   │   ├── shell.20240411-115632.log
+│   │   ├── shell.20240412-175913.log
+│   │   ├── shell.20240419-135110.log
+│   │   ├── shell.20240420-160529.log
+│   │   ├── shell.log
+│   │   ├── sunlogin_service.20230505-123715.log
+│   │   ├── sunlogin_service.20230505-135544.log
+│   │   ├── sunlogin_service.20230505-164621.log
+│   │   ├── sunlogin_service.20230505-164634.log
+│   │   ├── sunlogin_service.20230505-175800.log
+│   │   ├── sunlogin_service.20230505-224711.log
+│   │   ├── sunlogin_service.20230505-235645.log
+│   │   ├── sunlogin_service.20230506-152513.log
+│   │   ├── sunlogin_service.20230506-154605.log
+│   │   ├── sunlogin_service.20230508-145706.log
+│   │   ├── sunlogin_service.20230510-205702.log
+│   │   ├── sunlogin_service.20230512-075550.log
+│   │   ├── sunlogin_service.20230528-043207.log
+│   │   ├── sunlogin_service.20230528-131057.log
+│   │   ├── sunlogin_service.20230612-031234.log
+│   │   ├── sunlogin_service.20230613-141422.log
+│   │   ├── sunlogin_service.20230613-143143.log
+│   │   ├── sunlogin_service.20230614-111859.log
+│   │   ├── sunlogin_service.20230615-145927.log
+│   │   ├── sunlogin_service.20230615-171627.log
+│   │   ├── sunlogin_service.20230616-141215.log
+│   │   ├── sunlogin_service.20230617-155016.log
+│   │   ├── sunlogin_service.20230619-135123.log
+│   │   ├── sunlogin_service.20230619-184643.log
+│   │   ├── sunlogin_service.20230619-185102.log
+│   │   ├── sunlogin_service.20230627-230003.log
+│   │   ├── sunlogin_service.20230725-085500.log
+│   │   ├── sunlogin_service.20230725-085523.log
+│   │   ├── sunlogin_service.20230730-172628.log
+│   │   ├── sunlogin_service.20230803-033942.log
+│   │   ├── sunlogin_service.20230806-034117.log
+│   │   ├── sunlogin_service.20230806-042022.log
+│   │   ├── sunlogin_service.20230806-174745.log
+│   │   ├── sunlogin_service.20230807-192259.log
+│   │   ├── sunlogin_service.20230813-193342.log
+│   │   ├── sunlogin_service.20230814-073016.log
+│   │   ├── sunlogin_service.20230814-173924.log
+│   │   ├── sunlogin_service.20230820-182423.log
+│   │   ├── sunlogin_service.20230820-221503.log
+│   │   ├── sunlogin_service.20230821-165243.log
+│   │   ├── sunlogin_service.20230826-144530.log
+│   │   ├── sunlogin_service.20230826-232826.log
+│   │   ├── sunlogin_service.20230827-154843.log
+│   │   ├── sunlogin_service.20230908-003258.log
+│   │   ├── sunlogin_service.20230920-134639.log
+│   │   ├── sunlogin_service.20230921-044724.log
+│   │   ├── sunlogin_service.20230921-063709.log
+│   │   ├── sunlogin_service.20231001-223153.log
+│   │   ├── sunlogin_service.20231002-163825.log
+│   │   ├── sunlogin_service.20231004-192956.log
+│   │   ├── sunlogin_service.20231004-224619.log
+│   │   ├── sunlogin_service.20231005-183027.log
+│   │   ├── sunlogin_service.20231005-192259.log
+│   │   ├── sunlogin_service.20231005-193220.log
+│   │   ├── sunlogin_service.20231005-222129.log
+│   │   ├── sunlogin_service.20231005-234817.log
+│   │   ├── sunlogin_service.20231006-164326.log
+│   │   ├── sunlogin_service.20231006-213010.log
+│   │   ├── sunlogin_service.20231007-032004.log
+│   │   ├── sunlogin_service.20231007-151222.log
+│   │   ├── sunlogin_service.20231010-205136.log
+│   │   ├── sunlogin_service.20231010-205718.log
+│   │   ├── sunlogin_service.20231101-000008.log
+│   │   ├── sunlogin_service.20231103-123931.log
+│   │   ├── sunlogin_service.20231111-144452.log
+│   │   ├── sunlogin_service.20231114-120520.log
+│   │   ├── sunlogin_service.20231119-225215.log
+│   │   ├── sunlogin_service.20231123-004616.log
+│   │   ├── sunlogin_service.20231202-182507.log
+│   │   ├── sunlogin_service.20231208-170804.log
+│   │   ├── sunlogin_service.20231227-202445.log
+│   │   ├── sunlogin_service.20231227-203020.log
+│   │   ├── sunlogin_service.20240108-123453.log
+│   │   ├── sunlogin_service.20240115-132057.log
+│   │   ├── sunlogin_service.20240118-181820.log
+│   │   ├── sunlogin_service.20240119-160935.log
+│   │   ├── sunlogin_service.20240129-161044.log
+│   │   ├── sunlogin_service.20240201-142848.log
+│   │   ├── sunlogin_service.20240201-142912.log
+│   │   ├── sunlogin_service.20240202-212803.log
+│   │   ├── sunlogin_service.20240203-194451.log
+│   │   ├── sunlogin_service.20240206-213729.log
+│   │   ├── sunlogin_service.20240207-203951.log
+│   │   ├── sunlogin_service.20240208-153919.log
+│   │   ├── sunlogin_service.20240218-202259.log
+│   │   ├── sunlogin_service.20240304-184355.log
+│   │   ├── sunlogin_service.20240306-121607.log
+│   │   ├── sunlogin_service.20240320-102500.log
+│   │   ├── sunlogin_service.20240321-123514.log
+│   │   ├── sunlogin_service.20240323-065641.log
+│   │   ├── sunlogin_service.20240323-092801.log
+│   │   ├── sunlogin_service.20240327-144642.log
+│   │   ├── sunlogin_service.20240329-062228.log
+│   │   ├── sunlogin_service.20240401-200107.log
+│   │   ├── sunlogin_service.20240409-132947.log
+│   │   ├── sunlogin_service.20240410-002546.log
+│   │   ├── sunlogin_service.20240412-175920.log
+│   │   ├── sunlogin_service.20240419-135111.log
+│   │   ├── sunlogin_service.20240420-160530.log
+│   │   └── sunlogin_service.log
+│   ├── system.log
+│   ├── system.log.0.gz
+│   ├── system.log.1.gz
+│   ├── system.log.2.gz
+│   ├── system.log.3.gz
+│   ├── system.log.4.gz
+│   ├── system.log.5.gz
+│   ├── system.log.6.gz
+│   ├── uucp
+│   ├── weekly.out
+│   ├── wifi-05-02-2024__04:35:46.292.log
+│   ├── wifi-05-02-2024__04:45:54.281.log
+│   ├── wifi-05-02-2024__04:56:03.289.log
+│   ├── wifi-05-02-2024__05:06:08.288.log
+│   ├── wifi-05-02-2024__05:16:15.290.log
+│   ├── wifi-05-02-2024__05:26:24.287.log
+│   ├── wifi.log
+│   ├── wifi.log.0.bz2
+│   ├── wifi.log.1.bz2
+│   ├── wifi.log.10.bz2
+│   ├── wifi.log.2.bz2
+│   ├── wifi.log.3.bz2
+│   ├── wifi.log.4.bz2
+│   ├── wifi.log.5.bz2
+│   ├── wifi.log.6.bz2
+│   ├── wifi.log.7.bz2
+│   ├── wifi.log.8.bz2
+│   └── wifi.log.9.bz2
+├── logs
+│   ├── keybagd.log.0
+│   ├── keybagd.log.1
+│   ├── keybagd.log.2
+│   └── keybagd.log.3
+├── ma  [error opening dir]
+├── mail
+├── mobile
+│   └── Library
+│       ├── ExternalAccessory
+│       └── POMMES
+├── msgs
+│   └── bounds
+├── netboot
+├── networkd
+│   ├── Library  [error opening dir]
+│   └── db  [error opening dir]
+├── protected
+│   ├── sfanalytics
+│   │   ├── 99A39C86-CEFD-42A9-8C05-6D6292E3F191
+│   │   ├── FFFFEEEE-DDDD-CCCC-BBBB-AAAA00000059
+│   │   ├── FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000CD
+│   │   ├── FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000EB
+│   │   ├── FFFFEEEE-DDDD-CCCC-BBBB-AAAA000000F8
+│   │   └── FFFFEEEE-DDDD-CCCC-BBBB-AAAA0000011A
+│   └── trustd
+│       ├── SupplementalsAssets
+│       ├── pinningrules.sqlite3
+│       ├── private
+│       ├── valid.sqlite3
+│       ├── valid.sqlite3-shm
+│       └── valid.sqlite3-wal
+├── root  [error opening dir]
+├── rpc
+│   ├── ncacn_np
+│   │   ├── lsarpc
+│   │   ├── mdssvc
+│   │   ├── srvsvc
+│   │   └── wkssvc
+│   └── ncalrpc
+│       ├── NETLOGON
+│       ├── lsarpc
+│       ├── srvsvc
+│       └── wkssvc
+├── run
+│   ├── LiveFiles.ticotsord
+│   ├── auditd.pid
+│   ├── automount.initialized
+│   ├── com.apple.AssetCache
+│   │   └── AssetCache.pid
+│   ├── com.apple.DumpPanic.finishedThisBoot
+│   ├── com.apple.WindowServer.didRunThisBoot
+│   ├── com.apple.logind.didRunThisBoot
+│   ├── com.apple.loginwindow.didRunThisBoot
+│   ├── com.apple.mdmclient.daemon.didRunThisBoot
+│   ├── com.apple.softwareupdate.availableupdatesupdated
+│   ├── com.apple.wifivelocity
+│   ├── cupsd
+│   ├── diskarbitrationd.pid
+│   ├── displaypolicyd
+│   │   └── state
+│   ├── filesystemui.socket
+│   ├── hdiejectd.pid
+│   ├── kdc.pid
+│   ├── mDNSResponder
+│   ├── mds  [error opening dir]
+│   ├── portmap.socket
+│   ├── pppconfd
+│   ├── resolv.conf
+│   ├── syslog
+│   ├── syslog.pid
+│   ├── systemkeychaincheck.done
+│   ├── systemkeychaincheck.socket
+│   ├── usbmuxd
+│   ├── utmpx
+│   ├── vpncontrol.sock
+│   └── wifi
+├── rwho
+├── select
+│   ├── X11 -> /opt/X11
+│   └── sh -> /bin/bash
+├── sntpd
+│   └── state.bin
+├── spool
+│   ├── cups  [error opening dir]
+│   ├── mqueue  [error opening dir]
+│   ├── postfix
+│   │   ├── active
+│   │   ├── bounce
+│   │   ├── corrupt
+│   │   ├── defer
+│   │   ├── deferred
+│   │   ├── flush
+│   │   ├── hold
+│   │   ├── incoming
+│   │   ├── maildrop
+│   │   ├── pid
+│   │   ├── private
+│   │   ├── public
+│   │   ├── saved
+│   │   └── trace
+│   └── uucp
+├── tmp
+│   └── kernel_panics
+├── vm
+│   └── sleepimage
+└── yp
+    └── binding
+
+509 directories, 853 files

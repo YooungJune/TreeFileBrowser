@@ -1,0 +1,30 @@
+.
+├── README.md
+├── scrapy.cfg
+├── source.txt
+├── target.txt
+└── wordSpider
+    ├── __init__.py
+    ├── __pycache__
+    │   ├── __init__.cpython-36.pyc
+    │   ├── __init__.cpython-37.pyc
+    │   ├── __init__.cpython-39.pyc
+    │   ├── items.cpython-37.pyc
+    │   ├── pipelines.cpython-36.pyc
+    │   ├── pipelines.cpython-37.pyc
+    │   ├── pipelines.cpython-39.pyc
+    │   ├── settings.cpython-36.pyc
+    │   ├── settings.cpython-37.pyc
+    │   └── settings.cpython-39.pyc
+    ├── enterpoint.py
+    ├── items.py
+    ├── middlewares.py
+    ├── pipelines.py
+    ├── settings.py
+    └── spiders
+        ├── __init__.py
+        ├── __pycache__
+        ├── const.py
+        └── mySpider.py
+
+5 directories, 23 files

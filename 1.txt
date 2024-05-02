@@ -1,0 +1,18 @@
+.
+├── 1.txt
+├── CKTokens
+│   ├── Database
+│   │   └── Private.token
+│   └── Zone
+│       └── Private
+│           └── __defaultOwner__
+│               └── BluetoothDeviceInformationZone.token
+└── CachedRecords
+    ├── DeviceRecord
+    │   └── 2C:76:00:DF:28:C7
+    ├── DeviceSupportInformationRecord
+    │   └── 2C:76:00:DF:28:C7
+    └── MagicSettings
+        └── 2C:76:00:DF:28:C7
+
+10 directories, 6 files
