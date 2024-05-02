@@ -8,13 +8,19 @@
 
 最后就可以生成硬盘的结构树，以txt保存在常用电脑上了，再也不用担心不知道自己移动硬盘里是啥了！
 
+提供参考生成文件 1.txt 2.txt使用。
+
 ## 使用说明
-1. 首先，使用tree命令生成您的硬盘目录结构到一个文本文件，如果是windows系统请使用Windows PowerShell。
+1. 首先，使用tree命令生成您的硬盘目录结构到一个文本文件。使用-L参数可以限制文件夹深度。例如:
    ```bash
-   tree -l > MyDisk.txt
+   tree -L 3  > MyDisk.txt
    ```
 2. 使用文件夹阅读器打开这个文本文件：
    ```bash
    python folder_reader.py
    ```
    在弹出的图形界面中选择 `MyDisk.txt` 文件，程序将显示文件结构。
+
+## 注意事项
+
+在 Windows 系统下使用的 tree 命令与 Linux 系统中的 tree 命令略有不同，Windows 版本的 tree 命令更为简单。
