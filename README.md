@@ -24,3 +24,5 @@
 ## 注意事项
 
 在 Windows 系统下使用的 tree 命令与 Linux 系统中的 tree 命令略有不同，Windows 版本的 tree 命令更为简单。
+
+该脚本适配于**Linux**系统。
